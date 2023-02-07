@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap'); /*importa font raleway da google font*/
+
+body {
+  background-image: url("../images/background.jpg"); /*definisce sfondo pagina*/
+  background-size: cover;
+}
+
+/*definisce frame nero opacità 50%*/
+.frame {
+   width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 40%;
+  margin: 10%;
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+td, th {
+  border: 0px solid black;
+  text-align: left;
+  padding: 0px;
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: white;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+.riga2{
+  background-color: rgba(0,221,0,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   width: 100%;
+   height: 50px;
+}
+
+.riga2 button {
+  margin: 0 10px;
+  }
+
+h1{
+  font-size: 28px;
+  color: rgba(0,221,0,255)
+}
+
+h2{
+  font-size: 24px;
+  font-family: "raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.td2
+{
+  border: 0px solid black;
+  text-align: left;
+  padding: 20px;
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: white;
+}
